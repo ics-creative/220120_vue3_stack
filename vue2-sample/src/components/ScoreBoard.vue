@@ -3,12 +3,12 @@
     <div class="player">
       <span class="name">{{ p1Name }}</span
       >…
-      <span class="socre">{{ p1ScoreText }}</span>
+      <span class="score">{{ p1ScoreText }}</span>
     </div>
     <div class="player">
       <span class="name">{{ p2Name }}</span
       >…
-      <span class="socre">{{ p2ScoreText }}</span>
+      <span class="score">{{ p2ScoreText }}</span>
     </div>
   </div>
 </template>

@@ -9,14 +9,14 @@ const store = useScoreStore()
     <div class="player">
       <span class="name">{{ playerName('p1') }}</span
       >…
-      <span class="socre">{{
+      <span class="score">{{
         `${store.scoreP1.win}勝 ${store.scoreP1.lose}敗`
       }}</span>
     </div>
     <div class="player">
       <span class="name">{{ playerName('p2') }}</span
       >…
-      <span class="socre">{{
+      <span class="score">{{
         `${store.scoreP2.win}勝 ${store.scoreP2.lose}敗`
       }}</span>
     </div>
